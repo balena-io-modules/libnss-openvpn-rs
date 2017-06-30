@@ -1,0 +1,12 @@
+[package]
+name = "nss-openvpn"
+version = "0.0.1"
+authors = ["Petros Angelatos <petrosagg@resin.io>"]
+
+[dependencies]
+libc = "0.2.24"
+glob = "0.2"
+
+[lib]
+name = "nss_openvpn"
+crate-type = ["cdylib"]
