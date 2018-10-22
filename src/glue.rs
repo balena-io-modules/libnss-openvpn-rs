@@ -3,7 +3,6 @@ use {NssStatus, gethostbyname};
 use libc::{c_char, size_t, hostent, AF_INET};
 use libc::{ENOENT, ERANGE};
 use std::ffi::CStr;
-use std::str;
 use std::mem::size_of;
 use std::ptr;
 
