@@ -2,14 +2,14 @@ libnss-openvpn
 ==============
 
 The libnss-openvpn name service switch module resolves the name
-“xxx.vpn” to the associated xxx machine in the openvpn.server.status
+“xxx.balena” to the associated xxx machine in the openvpn.server.status
 file.
 
 With this module, you can access to a given host from the openvpn server
 even if the IP address is not static.
 
 ```
-    $ ssh foobar.vpn
+    $ ssh foobar.balena
 ```
 
 Configuration

@@ -10,7 +10,7 @@ use std::net::Ipv4Addr;
 use glob::glob;
 
 static GLOB_PATTERN: &str = "/var/run/openvpn/server-*.status";
-static SUFFIX: &str = ".vpn";
+static SUFFIX: &str = ".balena";
 
 #[allow(dead_code)]
 pub enum NssStatus {
