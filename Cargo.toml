@@ -4,8 +4,8 @@ version = "0.0.1"
 authors = ["Petros Angelatos <petrosagg@resin.io>"]
 
 [dependencies]
-libc = "0.2.24"
-glob = "0.2"
+libc = "0.2.43"
+glob = "0.2.11"
 
 [lib]
 name = "nss_openvpn"
