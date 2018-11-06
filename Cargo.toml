@@ -1,7 +1,7 @@
 [package]
 name = "nss-openvpn"
 version = "0.0.1"
-authors = ["Petros Angelatos <petrosagg@resin.io>"]
+authors = ["Petros Angelatos <petrosagg@balena.io>", "Will Boyce <will@balena.io>"]
 
 [dependencies]
 libc = "0.2.43"
